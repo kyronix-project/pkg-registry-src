@@ -1,0 +1,9 @@
+name = "micro"
+version = "2.0.15"
+revision = 1
+description = "A modern and intuitive terminal-based text editor"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "MIT"
+homepage = "https://micro-editor.github.io"
+depends = ["musl-dev", "xclip"]
