@@ -1,0 +1,9 @@
+name = "xsel"
+version = "1.2.1"
+revision = 1
+description = "Command-line program for getting and setting the contents of the X selection"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "MIT"
+homepage = "https://github.com/kfish/xsel"
+depends = ["musl-dev"]
