@@ -1,0 +1,9 @@
+name = "readline"
+version = "8.2"
+revision = 1
+description = "GNU Readline library for line editing and history"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "GPL-3.0"
+homepage = "https://tiswww.case.edu/php/chet/readline/rltop.html"
+depends = ["musl-dev"]
