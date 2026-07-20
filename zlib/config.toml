@@ -1,0 +1,9 @@
+name = "zlib"
+version = "1.3.1"
+revision = 1
+description = "Massively spiffy yet delicately unobtrusive compression library"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "Zlib"
+homepage = "https://zlib.net"
+depends = ["musl-dev"]
