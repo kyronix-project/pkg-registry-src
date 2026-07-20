@@ -1,0 +1,9 @@
+name = "xclip"
+version = "0.13"
+revision = 1
+description = "Command line interface to the X selection mechanism"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "GPL-2.0"
+homepage = "https://github.com/astrand/xclip"
+depends = ["musl-dev"]
