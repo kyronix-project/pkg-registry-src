@@ -1,0 +1,9 @@
+name = "openssl"
+version = "3.3.1"
+revision = 1
+description = "Toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "Apache-2.0"
+homepage = "https://www.openssl.org"
+depends = ["musl-dev", "zlib"]
