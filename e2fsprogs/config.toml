@@ -1,0 +1,9 @@
+name = "e2fsprogs"
+version = "1.47.0"
+revision = 1
+description = "Ext2/3/4 file system utilities"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later LGPL-2.1-or-later BSD-3-Clause MIT"
+homepage = "https://e2fsprogs.sourceforge.net/"
+depends = []
