@@ -1,0 +1,9 @@
+name = "dialog"
+version = "1.3.20180621"
+revision = 1
+description = "Display dialog boxes from shell scripts"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL"
+homepage = "https://invisible-island.net/dialog"
+depends = ["ncurses"]
