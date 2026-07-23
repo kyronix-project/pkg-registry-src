@@ -1,0 +1,9 @@
+name = "ncurses"
+version = "6.6"
+revision = 1
+description = "NCurses terminal handling library (static, musl)"
+arch = "x86-64"
+maintainer = "zennix"
+license = "MIT"
+homepage = "https://invisible-island.net/ncurses"
+depends = []
