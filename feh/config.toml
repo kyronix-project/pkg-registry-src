@@ -1,0 +1,9 @@
+name = "feh"
+version = "3.10.3"
+revision = 1
+description = "Lightweight X11 image viewer for Kyronix"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://feh.finalrewind.org/"
+depends = ["xorg"]

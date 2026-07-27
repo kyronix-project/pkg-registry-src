@@ -1,0 +1,9 @@
+name = "fetch"
+version = "1.0.0"
+revision = 1
+description = "Small Kyronix system information utility"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "ISC"
+homepage = "https://github.com/kyronix-project/kyronix"
+depends = []

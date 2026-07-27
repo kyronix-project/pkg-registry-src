@@ -1,0 +1,9 @@
+name = "dillo"
+version = "3.2.0"
+revision = 1
+description = "Lightweight graphical web browser for Kyronix"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "GPL-3.0-or-later"
+homepage = "https://dillo-browser.github.io/"
+depends = ["xorg"]

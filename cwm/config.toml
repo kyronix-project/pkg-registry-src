@@ -1,0 +1,9 @@
+name = "cwm"
+version = "1.0.0"
+revision = 2
+description = "Calm Window Manager for Kyronix"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "ISC"
+homepage = "https://github.com/leahneukirchen/cwm"
+depends = ["xorg", "st"]

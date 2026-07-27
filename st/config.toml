@@ -1,0 +1,9 @@
+name = "st"
+version = "0.9.3"
+revision = 1
+description = "Simple terminal emulator configured for Kyronix"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://st.suckless.org/"
+depends = ["xorg"]
