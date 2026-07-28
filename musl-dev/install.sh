@@ -1,6 +1,6 @@
 #!/bin/sh
 
-install_dir="$4"
+install_dir="/usr/lib"
 lib64="/usr/lib64"
 
 mkdir -p "$install_dir"
