@@ -1,0 +1,10 @@
+name = "mpc"
+version = "0.35"
+revision = 1
+description = "Minimalist command line interface to MPD"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.musicpd.org/clients/mpc/"
+depends = [
+]

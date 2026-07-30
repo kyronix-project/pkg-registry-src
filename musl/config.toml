@@ -1,0 +1,10 @@
+name = "musl"
+version = "1.2.5"
+revision = 11
+description = "the musl c library (libc) implementation"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://musl.libc.org/"
+depends = [
+]

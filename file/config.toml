@@ -1,0 +1,10 @@
+name = "file"
+version = "5.46"
+revision = 2
+description = "File type identification utility"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause"
+homepage = "https://www.darwinsys.com/file/"
+depends = [
+]

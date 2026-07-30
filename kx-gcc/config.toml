@@ -1,0 +1,9 @@
+name = "kx-gcc"
+version = "1.0"
+revision = 1
+description = "The wrapper for gcc"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://gcc.gnu.org"
+depends = []
