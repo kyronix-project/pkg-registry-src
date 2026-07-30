@@ -1,0 +1,11 @@
+name = "curl"
+version = "8.14.1"
+revision = 2
+description = "URL retrival utility and library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "curl"
+homepage = "https://curl.se/"
+depends = [
+    "libcurl",
+]

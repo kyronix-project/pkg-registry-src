@@ -1,0 +1,10 @@
+name = "ca-certificates-bundle"
+version = "20260413"
+revision = 1
+description = "Pre generated bundle of Mozilla certificates"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MPL-2.0 AND MIT"
+homepage = "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/"
+depends = [
+]
