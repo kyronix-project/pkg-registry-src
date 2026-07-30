@@ -1,0 +1,10 @@
+name = "nano"
+version = "8.2"
+revision = 1
+description = "Enhanced clone of the Pico text editor"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.nano-editor.org/"
+depends = [
+]
