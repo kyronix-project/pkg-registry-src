@@ -1,9 +1,10 @@
 name = "e2fsprogs"
-version = "1.47.0"
-revision = 1
-description = "Ext2/3/4 file system utilities"
+version = "1.47.1"
+revision = 2
+description = "Standard Ext2/3/4 filesystem utilities"
 arch = "x86-64"
 maintainer = "Zennix"
-license = "GPL-2.0-or-later LGPL-2.1-or-later BSD-3-Clause MIT"
+license = "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT"
 homepage = "https://e2fsprogs.sourceforge.net/"
-depends = []
+depends = [
+]

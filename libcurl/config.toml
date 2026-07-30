@@ -1,0 +1,11 @@
+name = "libcurl"
+version = "8.14.1"
+revision = 2
+description = "The multiprotocol file transfer library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "curl"
+homepage = "https://curl.se/"
+depends = [
+    "ca-certificates-bundle",
+]
