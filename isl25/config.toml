@@ -1,0 +1,10 @@
+name = "isl25"
+version = "0.25"
+revision = 2
+description = "An Integer Set Library for the Polyhedral Model"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "http://isl.gforge.inria.fr/"
+depends = [
+]

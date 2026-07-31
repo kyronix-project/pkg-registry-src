@@ -1,0 +1,10 @@
+name = "mpfr4"
+version = "4.2.1"
+revision = 1
+description = "multiple-precision floating-point library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-3.0-or-later"
+homepage = "https://www.mpfr.org/"
+depends = [
+]

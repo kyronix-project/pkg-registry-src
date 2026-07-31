@@ -1,0 +1,19 @@
+name = "gcc"
+version = "14.2.0"
+revision = 4
+description = "The GNU Compiler Collection"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://gcc.gnu.org"
+depends = [
+    "binutils",
+    "gmp",
+    "mpfr4",
+    "mpc1",
+    "isl25",
+    "musl-dev",
+    "musl",
+    "jansson",
+    "kx-gcc"
+]

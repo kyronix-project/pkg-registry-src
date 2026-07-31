@@ -1,0 +1,10 @@
+name = "tree"
+version = "2.2.1"
+revision = 1
+description = "Recursive directory indented listing of files"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://oldmanprogrammer.net/source.php?dir=projects/tree"
+depends = [
+]

@@ -1,0 +1,10 @@
+name = "jansson"
+version = "2.14"
+revision = 4
+description = "lightweight JSON library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "http://www.digip.org/jansson/"
+depends = [
+]

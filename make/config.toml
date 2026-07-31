@@ -1,0 +1,10 @@
+name = "make"
+version = "4.4.1"
+revision = 2
+description = "GNU make utility to maintain groups of programs"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.gnu.org/software/make"
+depends = [
+]

@@ -1,0 +1,10 @@
+name = "libstdc++"
+version = "14.2.0"
+revision = 4
+description = "GNU C++ standard runtime library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://gcc.gnu.org"
+depends = [
+]
