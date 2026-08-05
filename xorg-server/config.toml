@@ -1,0 +1,16 @@
+name = "xorg-server"
+version = "21.1.16"
+revision = 1
+description = "X.Org X servers"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://www.x.org/wiki"
+depends = [
+    "font-cursor-misc",
+    "font-misc-misc",
+    "mesa-egl",
+    "xkbcomp",
+    "xkeyboard-config",
+    "xorg-server-common",
+]
