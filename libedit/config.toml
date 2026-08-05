@@ -1,0 +1,10 @@
+name = "libedit"
+version = "20240808.3.1"
+revision = 1
+description = "BSD line editing library"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "BSD-3-Clause"
+homepage = "https://www.thrysoee.dk/editline"
+depends = [
+]
