@@ -1,0 +1,10 @@
+name = "luajit"
+version = "2.1_p20240815"
+revision = 1
+description = "OpenResty's branch of LuaJIT"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://github.com/openresty/luajit2"
+depends = [
+]

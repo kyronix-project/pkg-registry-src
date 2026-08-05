@@ -1,0 +1,10 @@
+name = "lua5.1"
+version = "5.1.5"
+revision = 13
+description = "A powerful light-weight programming language designed for extending applications."
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://www.lua.org/"
+depends = [
+]
