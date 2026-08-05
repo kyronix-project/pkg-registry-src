@@ -1,0 +1,10 @@
+name = "libarchive-tools"
+version = "3.8.3"
+revision = 1
+description = "libarchive tools bsdtar and bsdcpio"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "BSD-2-Clause AND BSD-3-Clause AND Public-Domain"
+homepage = "https://libarchive.org/"
+depends = [
+]
