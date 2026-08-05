@@ -1,0 +1,10 @@
+name = "pkgconf"
+version = "2.3.0"
+revision = 1
+description = "development framework configuration tools"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "ISC"
+homepage = "https://gitea.treehouse.systems/ariadne/pkgconf"
+depends = [
+]
