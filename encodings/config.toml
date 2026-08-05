@@ -1,0 +1,10 @@
+name = "encodings"
+version = "1.0.7"
+revision = 1
+description = "X.org font encoding files"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "Public Domain"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+]
