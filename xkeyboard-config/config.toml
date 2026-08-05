@@ -1,0 +1,10 @@
+name = "xkeyboard-config"
+version = "2.43"
+revision = 1
+description = "X keyboard configuration files"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config"
+depends = [
+]
