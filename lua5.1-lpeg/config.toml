@@ -1,0 +1,11 @@
+name = "lua5.1-lpeg"
+version = "1.1.0"
+revision = 1
+description = "Pattern-matching library for Lua 5.1"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "http://www.inf.puc-rio.br/~roberto/lpeg"
+depends = [
+    "lua5.1",
+]
