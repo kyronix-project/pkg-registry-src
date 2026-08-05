@@ -1,0 +1,10 @@
+name = "xorg-server-common"
+version = "21.1.16"
+revision = 1
+description = "Xorg server common files"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://www.x.org/wiki"
+depends = [
+]
