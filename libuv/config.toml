@@ -1,0 +1,10 @@
+name = "libuv"
+version = "1.49.2"
+revision = 1
+description = "Cross-platform asychronous I/O"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://libuv.org/"
+depends = [
+]
