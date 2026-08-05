@@ -1,0 +1,11 @@
+name = "mesa-egl"
+version = "24.2.8"
+revision = 1
+description = "Mesa libEGL runtime libraries"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT AND SGI-B-2.0 AND BSL-1.0"
+homepage = "https://www.mesa3d.org"
+depends = [
+    "mesa",
+]
