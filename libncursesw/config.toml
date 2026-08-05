@@ -1,0 +1,11 @@
+name = "libncursesw"
+version = "6.5_p20241006"
+revision = 3
+description = "Console display library (libncursesw)"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "X11"
+homepage = "https://invisible-island.net/ncurses/"
+depends = [
+    "ncurses-terminfo-base",
+]
