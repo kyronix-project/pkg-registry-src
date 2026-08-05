@@ -1,0 +1,10 @@
+name = "tree-sitter"
+version = "0.22.2"
+revision = 1
+description = "Incremental parsing system for programming tools"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "https://tree-sitter.github.io/"
+depends = [
+]
