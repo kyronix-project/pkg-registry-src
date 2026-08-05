@@ -1,9 +1,0 @@
-name = "xorg"
-version = "21.1.16"
-revision = 1
-description = "X.Org server, runtime libraries, fonts, and core X11 utilities for Kyronix"
-arch = "x86-64"
-maintainer = "Kyronix Project"
-license = "MIT"
-homepage = "https://www.x.org/"
-depends = []
