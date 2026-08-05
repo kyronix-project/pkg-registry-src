@@ -1,0 +1,10 @@
+name = "msgpack-c"
+version = "6.1.0"
+revision = 1
+description = "An efficient object serialization library for C"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "BSL-1.0"
+homepage = "https://msgpack.org"
+depends = [
+]
