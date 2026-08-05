@@ -1,0 +1,10 @@
+name = "vi"
+version = "1.36.1"
+revision = 1
+description = "Standalone vi text editor (busybox applet, built from source for musl)"
+arch = "x86-64"
+maintainer = "AnmiTaliDev"
+license = "GPL-2.0"
+homepage = "https://busybox.net/"
+depends = [
+]
