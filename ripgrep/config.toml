@@ -1,0 +1,10 @@
+name = "ripgrep"
+version = "14.1.1"
+revision = 1
+description = "ripgrep combines the usability of The Silver Searcher with the raw speed of grep"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT OR Unlicense"
+homepage = "https://github.com/BurntSushi/ripgrep"
+depends = [
+]
