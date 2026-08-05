@@ -1,0 +1,10 @@
+name = "vim"
+version = "9.1.1246"
+revision = 1
+description = "Vi IMproved - huge build, statically linked against musl with static ncurses"
+arch = "x86-64"
+maintainer = "AnmitaliDev"
+license = "Vim"
+homepage = "https://www.vim.org/"
+depends = [
+]
