@@ -1,0 +1,11 @@
+name = "neovim"
+version = "0.10.4"
+revision = 1
+description = "Vim-fork focused on extensibility and agility"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "Apache-2.0 AND Vim"
+homepage = "https://neovim.io/"
+depends = [
+    "lua5.1-lpeg",
+]
