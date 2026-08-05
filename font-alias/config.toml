@@ -1,0 +1,10 @@
+name = "font-alias"
+version = "1.0.5"
+revision = 1
+description = "X.org font alias files"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "custom"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+]
