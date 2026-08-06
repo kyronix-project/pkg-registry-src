@@ -7,5 +7,4 @@ maintainer = "Kyronix Project"
 license = "MIT"
 homepage = "https://xorg.freedesktop.org/"
 depends = [
-    "/bin/sh",
 ]

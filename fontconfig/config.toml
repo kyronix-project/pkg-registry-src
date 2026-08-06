@@ -7,5 +7,4 @@ maintainer = "Kyronix Project"
 license = "MIT"
 homepage = "https://www.freedesktop.org/wiki/Software/fontconfig"
 depends = [
-    "/bin/sh",
 ]

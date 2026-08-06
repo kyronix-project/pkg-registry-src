@@ -138,7 +138,7 @@ pkg_deps() {
         n = split($0, deps, " ")
         for (j=1; j<=n; j++) {
             dep = deps[j]
-            if (dep ~ /^(so:|pc:|path:|!|\?)/) continue
+            if (dep ~ /^(so:|pc:|path:|!|\?|\/)/) continue
             gsub(/[><=!~].*$/, "", dep)
             gsub(/^[[:space:]]+|[[:space:]]+$/, "", dep)
             if (dep != "") print dep
