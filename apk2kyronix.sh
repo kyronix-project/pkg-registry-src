@@ -130,20 +130,62 @@ pkg_repo() {
     return 1
 }
 
+build_soname_map() {
+    [ -f "$WORKDIR/.sonames" ] && return 0
+    : > "$WORKDIR/.sonames"
+    for idx in "$WORKDIR/APKINDEX-main" "$WORKDIR/APKINDEX-community"; do
+        [ -f "$idx" ] || continue
+        awk '
+            BEGIN { RS=""; FS="\n" }
+            {
+                pkg = ""; provides = ""
+                for (i=1; i<=NF; i++) {
+                    if ($i ~ /^P:/) pkg = substr($i, 3)
+                    if ($i ~ /^p:/) provides = substr($i, 3)
+                }
+                if (pkg == "" || provides == "") next
+                n = split(provides, arr, " ")
+                for (j=1; j<=n; j++) {
+                    if (arr[j] ~ /^so:/) {
+                        soname = arr[j]
+                        sub(/=.*/, "", soname)
+                        print soname "\t" pkg
+                    }
+                }
+            }
+        ' "$idx" >> "$WORKDIR/.sonames"
+    done
+}
+
 pkg_deps() {
     local raw
     raw=$(pkg_field "$1" "D") || return 0
     [ -z "$raw" ] && return 0
-    echo "$raw" | awk '{
-        n = split($0, deps, " ")
-        for (j=1; j<=n; j++) {
-            dep = deps[j]
-            if (dep ~ /^(so:|pc:|path:|!|\?)/) continue
-            gsub(/[><=!~].*$/, "", dep)
-            gsub(/^[[:space:]]+|[[:space:]]+$/, "", dep)
-            if (dep != "") print dep
+    build_soname_map
+    echo "$raw" | awk -v mapfile="$WORKDIR/.sonames" -v self="$1" '
+        BEGIN {
+            while ((getline line < mapfile) > 0) {
+                split(line, f, "\t")
+                map[f[1]] = f[2]
+            }
         }
-    }'
+        {
+            n = split($0, deps, " ")
+            for (j=1; j<=n; j++) {
+                dep = deps[j]
+                if (dep ~ /^(pc:|path:|!|\?)/) continue
+                if (dep ~ /^so:/) {
+                    soname = dep
+                    sub(/=.*/, "", soname)
+                    if (soname in map && map[soname] != self) print map[soname]
+                    continue
+                }
+                gsub(/[><=!~].*$/, "", dep)
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", dep)
+                if (dep != "" && dep != self) print dep
+            }
+        }
+    ' | sort -u
 }
 
 convert_package() {
