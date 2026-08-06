@@ -1,0 +1,10 @@
+name = "libtermkey"
+version = "0.22"
+revision = 1
+description = "Library for easy processing of keyboard entry from terminal-based programs"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT"
+homepage = "http://www.leonerd.org.uk/code/libtermkey"
+depends = [
+]
