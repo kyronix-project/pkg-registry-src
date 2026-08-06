@@ -8,4 +8,5 @@ license = "X11"
 homepage = "https://invisible-island.net/ncurses/"
 depends = [
     "ncurses-terminfo-base",
+    "musl",
 ]

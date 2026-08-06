@@ -7,4 +7,5 @@ maintainer = "Kyronix Project"
 license = "GPL-3.0-or-later"
 homepage = "https://www.gnu.org/software/tar/"
 depends = [
+    "musl",
 ]

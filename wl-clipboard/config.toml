@@ -7,4 +7,5 @@ maintainer = "Kyronix Project"
 license = "GPL-3.0-or-later"
 homepage = "https://github.com/bugaevc/wl-clipboard"
 depends = [
+    "musl",
 ]

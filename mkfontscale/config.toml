@@ -7,4 +7,6 @@ maintainer = "Kyronix Project"
 license = "MIT"
 homepage = "https://xorg.freedesktop.org/"
 depends = [
+    "musl",
+    "zlib",
 ]

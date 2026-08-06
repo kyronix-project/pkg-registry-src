@@ -7,5 +7,14 @@ maintainer = "Kyronix Project"
 license = "Apache-2.0 AND Vim"
 homepage = "https://neovim.io/"
 depends = [
+    "libintl",
+    "libluv",
+    "libuv",
+    "libvterm",
     "lua5.1-lpeg",
+    "luajit",
+    "msgpack-c",
+    "musl",
+    "tree-sitter",
+    "unibilium",
 ]

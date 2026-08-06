@@ -7,4 +7,6 @@ maintainer = "Kyronix Project"
 license = "BSD-3-Clause"
 homepage = "https://www.thrysoee.dk/editline"
 depends = [
+    "libncursesw",
+    "musl",
 ]

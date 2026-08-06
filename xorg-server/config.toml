@@ -13,4 +13,5 @@ depends = [
     "xkbcomp",
     "xkeyboard-config",
     "xorg-server-common",
+    "musl",
 ]

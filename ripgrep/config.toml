@@ -7,4 +7,5 @@ maintainer = "Kyronix Project"
 license = "MIT OR Unlicense"
 homepage = "https://github.com/BurntSushi/ripgrep"
 depends = [
+    "musl",
 ]

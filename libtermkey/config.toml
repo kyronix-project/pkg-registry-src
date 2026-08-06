@@ -7,4 +7,6 @@ maintainer = "Kyronix Project"
 license = "MIT"
 homepage = "http://www.leonerd.org.uk/code/libtermkey"
 depends = [
+    "musl",
+    "unibilium",
 ]
