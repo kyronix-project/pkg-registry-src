@@ -8,4 +8,6 @@ license = "MIT"
 homepage = "https://xorg.freedesktop.org/"
 depends = [
     "/bin/sh",
+    "musl",
+    "zlib",
 ]

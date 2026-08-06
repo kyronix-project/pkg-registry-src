@@ -7,4 +7,5 @@ maintainer = "Kyronix Project"
 license = "LGPL-3.0-or-later"
 homepage = "https://github.com/neovim/unibilium/"
 depends = [
+    "musl",
 ]

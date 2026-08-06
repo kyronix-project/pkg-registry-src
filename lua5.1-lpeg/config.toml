@@ -8,4 +8,5 @@ license = "MIT"
 homepage = "http://www.inf.puc-rio.br/~roberto/lpeg"
 depends = [
     "lua5.1",
+    "musl",
 ]
