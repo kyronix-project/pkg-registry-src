@@ -1,0 +1,13 @@
+name = "btop"
+version = "1.4.0"
+revision = 1
+description = "Resource monitor"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "Apache-2.0"
+homepage = "https://github.com/aristocratos/btop"
+depends = [
+    "libgcc",
+    "libstdc++",
+    "musl",
+]
