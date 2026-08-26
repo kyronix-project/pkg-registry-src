@@ -1,0 +1,12 @@
+name = "htop"
+version = "3.3.0"
+revision = 1
+description = "Interactive process viewer"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "GPL-2.0-or-later"
+homepage = "https://htop.dev/"
+depends = [
+    "libncursesw",
+    "musl",
+]
