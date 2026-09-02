@@ -1,6 +1,6 @@
 name = "fastfetch"
 version = "2.65.1"
-revision = 2
+revision = 3
 description = "Fast system information utility"
 arch = "x86-64"
 maintainer = "AnmiTaliDev"
