@@ -164,6 +164,11 @@ pkg_deps() {
     build_soname_map
     echo "$raw" | awk -v mapfile="$WORKDIR/.sonames" -v self="$1" '
         BEGIN {
+            # those deps we will ignore
+            skip["/bin/sh"] = 1
+            skip["/bin/bash"] = 1
+            skip["sh"] = 1
+
             while ((getline line < mapfile) > 0) {
                 split(line, f, "\t")
                 map[f[1]] = f[2]
@@ -182,6 +187,7 @@ pkg_deps() {
                 }
                 gsub(/[><=!~].*$/, "", dep)
                 gsub(/^[[:space:]]+|[[:space:]]+$/, "", dep)
+                if (dep in skip) continue          
                 if (dep != "" && dep != self) print dep
             }
         }
