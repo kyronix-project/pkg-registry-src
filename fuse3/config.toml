@@ -1,0 +1,13 @@
+name = "fuse3"
+version = "3.16.2"
+revision = 1
+description = "Reference implementation of the Linux FUSE (Filesystem in Userspace) interface"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-only AND LGPL-2.1-only"
+homepage = "https://github.com/libfuse/libfuse"
+depends = [
+    "fuse-common",
+    "fuse3-libs",
+    "musl",
+]

@@ -1,0 +1,16 @@
+name = "glib"
+version = "2.82.5"
+revision = 1
+description = "Common C routines used by Gtk+ and other libs"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://developer.gnome.org/glib/"
+depends = [
+    "libffi",
+    "libintl",
+    "libmount",
+    "musl",
+    "pcre2",
+    "zlib",
+]

@@ -1,0 +1,11 @@
+name = "xz-libs"
+version = "5.8.4"
+revision = 1
+description = "Library and CLI tools for XZ and LZMA compressed files (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later"
+homepage = "https://tukaani.org/xz/"
+depends = [
+    "musl",
+]

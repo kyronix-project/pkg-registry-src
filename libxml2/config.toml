@@ -1,0 +1,13 @@
+name = "libxml2"
+version = "2.13.9"
+revision = 1
+description = "XML parsing library, version 2"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://gitlab.gnome.org/GNOME/libxml2"
+depends = [
+    "musl",
+    "xz-libs",
+    "zlib",
+]

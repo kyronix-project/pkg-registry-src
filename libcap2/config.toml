@@ -1,0 +1,11 @@
+name = "libcap2"
+version = "2.78"
+revision = 1
+description = "POSIX 1003.1e capabilities (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause OR GPL-2.0-only"
+homepage = "https://sites.google.com/site/fullycapable/"
+depends = [
+    "musl",
+]

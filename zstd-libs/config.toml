@@ -1,0 +1,11 @@
+name = "zstd-libs"
+version = "1.5.6"
+revision = 2
+description = "Zstandard - Fast real-time compression algorithm (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause OR GPL-2.0-or-later"
+homepage = "https://facebook.github.io/zstd/"
+depends = [
+    "musl",
+]

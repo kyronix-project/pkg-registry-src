@@ -1,0 +1,11 @@
+name = "pcre2"
+version = "10.43"
+revision = 1
+description = "Perl-compatible regular expression library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://pcre.org/"
+depends = [
+    "musl",
+]

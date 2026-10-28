@@ -1,0 +1,11 @@
+name = "yaml"
+version = "0.2.5"
+revision = 2
+description = "YAML 1.1 parser and emitter written in C"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://pyyaml.org/wiki/LibYAML"
+depends = [
+    "musl",
+]

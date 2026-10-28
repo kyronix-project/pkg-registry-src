@@ -1,0 +1,12 @@
+name = "dconf"
+version = "0.40.0"
+revision = 5
+description = "low-level configuration system"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://wiki.gnome.org/Projects/dconf"
+depends = [
+    "glib",
+    "musl",
+]

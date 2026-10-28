@@ -1,0 +1,12 @@
+name = "bubblewrap"
+version = "0.12.0"
+revision = 1
+description = "Unprivileged sandboxing tool"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://github.com/containers/bubblewrap"
+depends = [
+    "libcap2",
+    "musl",
+]

@@ -1,0 +1,12 @@
+name = "libpng"
+version = "1.6.59"
+revision = 1
+description = "Portable Network Graphics library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Libpng"
+homepage = "http://www.libpng.org"
+depends = [
+    "musl",
+    "zlib",
+]

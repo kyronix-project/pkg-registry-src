@@ -1,0 +1,11 @@
+name = "libintl"
+version = "0.22.5"
+revision = 1
+description = "GNU gettext runtime library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://www.gnu.org/software/gettext/gettext.html"
+depends = [
+    "musl",
+]

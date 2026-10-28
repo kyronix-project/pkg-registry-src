@@ -1,0 +1,11 @@
+name = "libjpeg-turbo"
+version = "3.0.4"
+revision = 1
+description = "Accelerated baseline JPEG compression and decompression library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause AND IJG AND Zlib"
+homepage = "https://libjpeg-turbo.org/"
+depends = [
+    "musl",
+]

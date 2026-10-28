@@ -1,0 +1,12 @@
+name = "libblkid"
+version = "2.40.4"
+revision = 1
+description = "Block device identification library from util-linux"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://git.kernel.org/cgit/utils/util-linux/util-linux.git"
+depends = [
+    "libeconf",
+    "musl",
+]

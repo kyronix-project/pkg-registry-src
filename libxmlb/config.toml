@@ -1,0 +1,14 @@
+name = "libxmlb"
+version = "0.3.21"
+revision = 1
+description = "Library to help create and query binary XML blobs"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://github.com/hughsie/libxmlb"
+depends = [
+    "glib",
+    "musl",
+    "xz-libs",
+    "zstd-libs",
+]

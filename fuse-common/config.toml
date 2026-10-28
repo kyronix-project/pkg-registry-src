@@ -1,0 +1,10 @@
+name = "fuse-common"
+version = "3.16.2"
+revision = 1
+description = "Common files for fuse2 and fuse3"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-only AND LGPL-2.1-only"
+homepage = "https://github.com/libfuse/libfuse"
+depends = [
+]

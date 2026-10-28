@@ -1,0 +1,13 @@
+name = "desktop-file-utils"
+version = "0.28"
+revision = 1
+description = "Command line utilities for working with desktop entries"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.freedesktop.org/wiki/Software/desktop-file-utils"
+depends = [
+    "glib",
+    "libintl",
+    "musl",
+]
