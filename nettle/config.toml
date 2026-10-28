@@ -1,0 +1,12 @@
+name = "nettle"
+version = "3.10.2"
+revision = 1
+description = "Low-level cryptographic library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later OR LGPL-3.0-or-later"
+homepage = "https://www.lysator.liu.se/~nisse/nettle/"
+depends = [
+    "gmp",
+    "musl",
+]

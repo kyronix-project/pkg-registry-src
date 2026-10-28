@@ -1,0 +1,11 @@
+name = "npth"
+version = "1.6"
+revision = 4
+description = "The New GNU Portable Threads library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.0-or-later"
+homepage = "https://gnupg.org/related_software/npth/"
+depends = [
+    "musl",
+]

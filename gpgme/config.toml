@@ -1,0 +1,16 @@
+name = "gpgme"
+version = "1.24.1"
+revision = 1
+description = "gnupg made easy"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later GPL-3.0-or-later"
+homepage = "https://www.gnupg.org/related_software/gpgme/"
+depends = [
+    "gpg",
+    "gpg-agent",
+    "gpgsm",
+    "libassuan",
+    "libgpg-error",
+    "musl",
+]

@@ -1,0 +1,15 @@
+name = "tiff"
+version = "4.7.2"
+revision = 1
+description = "Provides support for the Tag Image File Format or TIFF"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "libtiff"
+homepage = "https://gitlab.com/libtiff/libtiff"
+depends = [
+    "libjpeg-turbo",
+    "libwebp",
+    "musl",
+    "zlib",
+    "zstd-libs",
+]

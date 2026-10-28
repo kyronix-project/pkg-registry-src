@@ -1,0 +1,12 @@
+name = "libgcrypt"
+version = "1.10.3"
+revision = 1
+description = "General purpose crypto library based on the code used in GnuPG"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later AND GPL-2.0-or-later"
+homepage = "https://www.gnupg.org/"
+depends = [
+    "libgpg-error",
+    "musl",
+]

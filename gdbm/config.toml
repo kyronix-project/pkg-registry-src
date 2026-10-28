@@ -1,0 +1,11 @@
+name = "gdbm"
+version = "1.24"
+revision = 1
+description = "GNU dbm is a set of database routines that use extensible hashing"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.gnu.org/software/gdbm/"
+depends = [
+    "musl",
+]

@@ -1,0 +1,11 @@
+name = "lz4-libs"
+version = "1.10.0"
+revision = 1
+description = "LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core. (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause AND GPL-2.0-or-later"
+homepage = "https://github.com/lz4/lz4"
+depends = [
+    "musl",
+]

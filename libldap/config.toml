@@ -1,0 +1,14 @@
+name = "libldap"
+version = "2.6.8"
+revision = 1
+description = "OpenLDAP libraries"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "OLDAP-2.8"
+homepage = "https://www.openldap.org/"
+depends = [
+    "libcrypto3",
+    "libsasl",
+    "libssl3",
+    "musl",
+]

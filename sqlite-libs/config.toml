@@ -1,0 +1,11 @@
+name = "sqlite-libs"
+version = "3.48.0"
+revision = 4
+description = "C library that implements an SQL database engine (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "blessing"
+homepage = "https://www.sqlite.org/"
+depends = [
+    "musl",
+]

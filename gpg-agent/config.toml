@@ -1,0 +1,16 @@
+name = "gpg-agent"
+version = "2.4.9"
+revision = 1
+description = "GNU Privacy Guard 2 - cryptographic agent"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.gnupg.org/"
+depends = [
+    "gnupg-gpgconf",
+    "libassuan",
+    "libgcrypt",
+    "libgpg-error",
+    "musl",
+    "npth",
+]

@@ -1,0 +1,11 @@
+name = "hicolor-icon-theme"
+version = "0.18"
+revision = 1
+description = "Freedesktop.org Hicolor icon theme"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.freedesktop.org/wiki/Software/icon-theme/"
+depends = [
+    "pkgconfig",
+]

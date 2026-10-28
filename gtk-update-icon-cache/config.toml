@@ -1,0 +1,15 @@
+name = "gtk-update-icon-cache"
+version = "3.24.49"
+revision = 1
+description = "The GTK+ Toolkit (v3)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://www.gtk.org/"
+depends = [
+    "gdk-pixbuf",
+    "glib",
+    "hicolor-icon-theme",
+    "libintl",
+    "musl",
+]

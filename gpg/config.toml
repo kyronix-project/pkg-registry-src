@@ -1,0 +1,21 @@
+name = "gpg"
+version = "2.4.9"
+revision = 1
+description = "GNU Privacy Guard 2 - public key operations only"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.gnupg.org/"
+depends = [
+    "gnupg-dirmngr",
+    "gnupg-gpgconf",
+    "gnupg-keyboxd",
+    "libassuan",
+    "libbz2",
+    "libgcrypt",
+    "libgpg-error",
+    "musl",
+    "npth",
+    "sqlite-libs",
+    "zlib",
+]

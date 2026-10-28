@@ -1,0 +1,11 @@
+name = "libbz2"
+version = "1.0.8"
+revision = 6
+description = "Shared library for bz2"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "bzip2-1.0.6"
+homepage = "https://sourceware.org/bzip2/"
+depends = [
+    "musl",
+]

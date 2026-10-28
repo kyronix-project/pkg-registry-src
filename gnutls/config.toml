@@ -1,0 +1,18 @@
+name = "gnutls"
+version = "3.8.13"
+revision = 1
+description = "TLS protocol implementation"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://www.gnutls.org/"
+depends = [
+    "gmp",
+    "libidn2",
+    "libtasn1",
+    "libunistring",
+    "musl",
+    "nettle",
+    "p11-kit",
+    "zlib",
+]

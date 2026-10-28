@@ -1,0 +1,13 @@
+name = "p11-kit"
+version = "0.26.2"
+revision = 1
+description = "Library for loading and sharing PKCS#11 modules"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://p11-glue.freedesktop.org/"
+depends = [
+    "libffi",
+    "libtasn1",
+    "musl",
+]

@@ -1,0 +1,12 @@
+name = "libsasl"
+version = "2.1.28"
+revision = 8
+description = "Cyrus Simple Authentication and Security Layer (SASL) library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause-Attribution AND BSD-4-Clause"
+homepage = "https://www.cyrusimap.org/sasl/"
+depends = [
+    "gdbm",
+    "musl",
+]

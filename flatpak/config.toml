@@ -1,0 +1,34 @@
+name = "flatpak"
+version = "1.14.10"
+revision = 1
+description = "Application deployment framework for desktop apps"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://flatpak.org/"
+depends = [
+    "appstream",
+    "bubblewrap",
+    "dconf",
+    "desktop-file-utils",
+    "fuse3",
+    "fuse3-libs",
+    "gdk-pixbuf",
+    "glib",
+    "gpgme",
+    "gtk-update-icon-cache",
+    "json-glib",
+    "libarchive",
+    "libcurl",
+    "libintl",
+    "libseccomp",
+    "libxau",
+    "libxml2",
+    "musl",
+    "ostree",
+    "polkit-noelogind-libs",
+    "shared-mime-info",
+    "xdg-dbus-proxy",
+    "zstd-libs",
+    "lz4-libs",
+]

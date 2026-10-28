@@ -1,0 +1,12 @@
+name = "json-glib"
+version = "1.10.6"
+revision = 1
+description = "JSON library built on GLib"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://wiki.gnome.org/Projects/JsonGlib"
+depends = [
+    "glib",
+    "musl",
+]

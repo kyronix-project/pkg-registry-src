@@ -1,0 +1,15 @@
+name = "gnupg-gpgconf"
+version = "2.4.9"
+revision = 1
+description = "GNU Privacy Guard 2 - core configuration utilities"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-3.0-or-later"
+homepage = "https://www.gnupg.org/"
+depends = [
+    "libassuan",
+    "libgcrypt",
+    "libgpg-error",
+    "musl",
+    "pinentry",
+]

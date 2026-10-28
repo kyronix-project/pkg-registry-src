@@ -1,0 +1,12 @@
+name = "libidn2"
+version = "2.3.7"
+revision = 1
+description = "Encode/Decode library for internationalized domain names"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later OR LGPL-3.0-or-later"
+homepage = "https://www.gnu.org/software/libidn#libidn2"
+depends = [
+    "libunistring",
+    "musl",
+]

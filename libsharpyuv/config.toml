@@ -1,0 +1,11 @@
+name = "libsharpyuv"
+version = "1.4.0"
+revision = 1
+description = "Libraries for working with WebP images (libsharpyuv library)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://developers.google.com/speed/webp"
+depends = [
+    "musl",
+]

@@ -1,0 +1,12 @@
+name = "libassuan"
+version = "2.5.7"
+revision = 1
+description = "IPC library used by some GnuPG related software"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://www.gnupg.org/software/libassuan/index.html"
+depends = [
+    "libgpg-error",
+    "musl",
+]

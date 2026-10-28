@@ -1,0 +1,20 @@
+name = "ostree"
+version = "2024.9"
+revision = 1
+description = "Operating system and container binary deployment and upgrades"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.0-or-later"
+homepage = "https://github.com/ostreedev/ostree"
+depends = [
+    "fuse3-libs",
+    "glib",
+    "gpgme",
+    "libarchive",
+    "libcrypto3",
+    "libcurl",
+    "libgpg-error",
+    "musl",
+    "xz-libs",
+    "zlib",
+]

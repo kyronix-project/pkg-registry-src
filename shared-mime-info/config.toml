@@ -1,0 +1,16 @@
+name = "shared-mime-info"
+version = "2.4"
+revision = 2
+description = "Freedesktop.org Shared MIME Info"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.freedesktop.org/Software/shared-mime-info"
+depends = [
+    "glib",
+    "libgcc",
+    "libstdc++",
+    "libxml2",
+    "musl",
+    "pkgconfig",
+]

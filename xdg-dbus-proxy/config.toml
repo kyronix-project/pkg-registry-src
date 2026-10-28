@@ -1,0 +1,13 @@
+name = "xdg-dbus-proxy"
+version = "0.1.6"
+revision = 1
+description = "Filtering proxy for D-Bus connections"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://github.com/flatpak/xdg-dbus-proxy/"
+depends = [
+    "dbus",
+    "glib",
+    "musl",
+]

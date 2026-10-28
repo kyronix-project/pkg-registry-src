@@ -1,0 +1,11 @@
+name = "libxau"
+version = "1.0.11"
+revision = 4
+description = "X11 authorisation library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+    "musl",
+]

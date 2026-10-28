@@ -1,0 +1,12 @@
+name = "polkit-noelogind-libs"
+version = "125"
+revision = 1
+description = "Application development toolkit for controlling system-wide privileges (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://github.com/polkit-org/polkit"
+depends = [
+    "glib",
+    "musl",
+]

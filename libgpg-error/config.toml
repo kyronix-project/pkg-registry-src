@@ -1,0 +1,11 @@
+name = "libgpg-error"
+version = "1.51"
+revision = 1
+description = "Support library for libgcrypt"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://www.gnupg.org/"
+depends = [
+    "musl",
+]

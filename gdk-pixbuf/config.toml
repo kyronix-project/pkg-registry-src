@@ -1,0 +1,17 @@
+name = "gdk-pixbuf"
+version = "2.42.12"
+revision = 1
+description = "GTK+ image loading library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://wiki.gnome.org/Projects/GdkPixbuf"
+depends = [
+    "glib",
+    "libintl",
+    "libjpeg-turbo",
+    "libpng",
+    "musl",
+    "shared-mime-info",
+    "tiff",
+]
