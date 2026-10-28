@@ -1,9 +1,3 @@
 #!/bin/sh
-
 set -e
-
-install_dir="$4"
-
-mkdir -p "$install_dir"
-cp "$1/payload/fetch" "$install_dir/fetch"
-chmod 755 "$install_dir/fetch"
+cp -r "$1/payload/"* /
