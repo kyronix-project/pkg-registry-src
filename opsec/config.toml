@@ -1,0 +1,9 @@
+name = "opsec"
+version = "1.0"
+revision = 1
+description = "Eliiot, just engineer"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT License"
+homepage = "none"
+depends = []
