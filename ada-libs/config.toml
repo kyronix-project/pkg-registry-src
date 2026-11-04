@@ -1,0 +1,13 @@
+name = "ada-libs"
+version = "2.9.2"
+revision = 1
+description = "WHATWG-compliant and fast URL parser written in modern C++ (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "( Apache-2.0 OR MIT ) AND MPL-2.0"
+homepage = "https://ada-url.github.io/ada"
+depends = [
+    "libgcc",
+    "libstdc++",
+    "musl",
+]
