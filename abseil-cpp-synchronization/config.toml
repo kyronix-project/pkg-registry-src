@@ -1,0 +1,20 @@
+name = "abseil-cpp-synchronization"
+version = "20240722.0"
+revision = 1
+description = "Abseil Common C++ library: abseil-cpp-synchronization"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://abseil.io/"
+depends = [
+    "abseil-cpp-base",
+    "abseil-cpp-kernel-timeout-internal",
+    "abseil-cpp-malloc-internal",
+    "abseil-cpp-raw-logging-internal",
+    "abseil-cpp-spinlock-wait",
+    "abseil-cpp-stacktrace",
+    "abseil-cpp-time",
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

@@ -1,0 +1,23 @@
+name = "abseil-cpp-log-internal-message"
+version = "20240722.0"
+revision = 1
+description = "Abseil Common C++ library: abseil-cpp-log-internal-message"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://abseil.io/"
+depends = [
+    "abseil-cpp-base",
+    "abseil-cpp-examine-stack",
+    "abseil-cpp-log-globals",
+    "abseil-cpp-log-internal-format",
+    "abseil-cpp-log-internal-globals",
+    "abseil-cpp-log-internal-log-sink-set",
+    "abseil-cpp-log-internal-proto",
+    "abseil-cpp-raw-logging-internal",
+    "abseil-cpp-strerror",
+    "abseil-cpp-time",
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

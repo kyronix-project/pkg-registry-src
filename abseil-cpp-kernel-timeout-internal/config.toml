@@ -1,0 +1,14 @@
+name = "abseil-cpp-kernel-timeout-internal"
+version = "20240722.0"
+revision = 1
+description = "Abseil Common C++ library: abseil-cpp-kernel-timeout-internal"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://abseil.io/"
+depends = [
+    "abseil-cpp-raw-logging-internal",
+    "abseil-cpp-time",
+    "libstdc++",
+    "musl",
+]

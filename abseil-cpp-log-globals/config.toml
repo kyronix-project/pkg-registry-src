@@ -1,0 +1,15 @@
+name = "abseil-cpp-log-globals"
+version = "20240722.0"
+revision = 1
+description = "Abseil Common C++ library: abseil-cpp-log-globals"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://abseil.io/"
+depends = [
+    "abseil-cpp-hash",
+    "abseil-cpp-raw-logging-internal",
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

@@ -1,0 +1,19 @@
+name = "abseil-cpp-cordz-info"
+version = "20240722.0"
+revision = 1
+description = "Abseil Common C++ library: abseil-cpp-cordz-info"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://abseil.io/"
+depends = [
+    "abseil-cpp-base",
+    "abseil-cpp-cord-internal",
+    "abseil-cpp-cordz-handle",
+    "abseil-cpp-stacktrace",
+    "abseil-cpp-synchronization",
+    "abseil-cpp-time",
+    "libgcc",
+    "libstdc++",
+    "musl",
+]
