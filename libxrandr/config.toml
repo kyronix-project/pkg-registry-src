@@ -1,0 +1,14 @@
+name = "libxrandr"
+version = "1.5.4"
+revision = 1
+description = "X11 RandR extension library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+    "libx11",
+    "libxext",
+    "libxrender",
+    "musl",
+]

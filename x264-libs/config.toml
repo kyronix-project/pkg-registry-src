@@ -1,0 +1,11 @@
+name = "x264-libs"
+version = "0.164.3108"
+revision = 1
+description = "Free library for encoding H264/AVC video streams (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.videolan.org/developers/x264.html"
+depends = [
+    "musl",
+]

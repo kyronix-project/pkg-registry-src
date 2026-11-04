@@ -1,0 +1,11 @@
+name = "cjson"
+version = "1.7.19"
+revision = 1
+description = "Lighweight JSON parser in C"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://github.com/DaveGamble/cJSON"
+depends = [
+    "musl",
+]

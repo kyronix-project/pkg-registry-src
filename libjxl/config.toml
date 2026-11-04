@@ -1,0 +1,20 @@
+name = "libjxl"
+version = "0.10.4"
+revision = 1
+description = "JPEG XL image format reference implementation"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://jpeg.org/jpegxl/"
+depends = [
+    "brotli-libs",
+    "giflib",
+    "lcms2",
+    "libgcc",
+    "libhwy",
+    "libjpeg-turbo",
+    "libpng",
+    "libstdc++",
+    "musl",
+    "openexr-libopenexr",
+]

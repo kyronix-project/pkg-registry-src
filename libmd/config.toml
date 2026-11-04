@@ -1,0 +1,11 @@
+name = "libmd"
+version = "1.1.0"
+revision = 1
+description = "Message Digest functions from BSD systems"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain"
+homepage = "https://www.hadrons.org/software/libmd/"
+depends = [
+    "musl",
+]

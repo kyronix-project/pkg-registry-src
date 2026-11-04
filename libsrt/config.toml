@@ -1,0 +1,14 @@
+name = "libsrt"
+version = "1.5.3"
+revision = 1
+description = "Secure Reliable Transport (SRT)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MPL-2.0"
+homepage = "https://www.srtalliance.org/"
+depends = [
+    "libcrypto3",
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

@@ -1,0 +1,12 @@
+name = "libxfixes"
+version = "6.0.1"
+revision = 4
+description = "X11 miscellaneous 'fixes' extension library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+    "libx11",
+    "musl",
+]

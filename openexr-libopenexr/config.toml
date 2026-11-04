@@ -1,0 +1,17 @@
+name = "openexr-libopenexr"
+version = "3.3.2"
+revision = 1
+description = "High dynamic-range image file format library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://www.openexr.com/"
+depends = [
+    "imath",
+    "libgcc",
+    "libstdc++",
+    "musl",
+    "openexr-libiex",
+    "openexr-libilmthread",
+    "openexr-libopenexrcore",
+]

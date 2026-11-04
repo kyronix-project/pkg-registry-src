@@ -1,0 +1,11 @@
+name = "xvidcore"
+version = "1.3.7"
+revision = 2
+description = "XviD is an open source MPEG-4 video codec"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://www.xvid.com/"
+depends = [
+    "musl",
+]

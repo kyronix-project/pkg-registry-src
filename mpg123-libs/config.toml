@@ -1,0 +1,11 @@
+name = "mpg123-libs"
+version = "1.32.9"
+revision = 1
+description = "Console-based MPEG Audio Player for Layers 1, 2 and 3 (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-only"
+homepage = "https://www.mpg123.org/"
+depends = [
+    "musl",
+]

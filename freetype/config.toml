@@ -1,0 +1,15 @@
+name = "freetype"
+version = "2.13.3"
+revision = 1
+description = "TrueType font rendering library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "FTL OR GPL-2.0-or-later"
+homepage = "https://www.freetype.org/"
+depends = [
+    "brotli-libs",
+    "libbz2",
+    "libpng",
+    "musl",
+    "zlib",
+]

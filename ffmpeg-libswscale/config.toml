@@ -1,0 +1,12 @@
+name = "ffmpeg-libswscale"
+version = "6.1.2"
+revision = 1
+description = "Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libswscale library)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://ffmpeg.org/"
+depends = [
+    "ffmpeg-libavutil",
+    "musl",
+]

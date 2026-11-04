@@ -1,0 +1,12 @@
+name = "vidstab"
+version = "1.1.1"
+revision = 1
+description = "Video stabilization library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "http://public.hronopik.de/vid.stab/"
+depends = [
+    "libgomp",
+    "musl",
+]

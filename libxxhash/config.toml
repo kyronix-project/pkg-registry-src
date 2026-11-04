@@ -1,0 +1,11 @@
+name = "libxxhash"
+version = "0.8.2"
+revision = 2
+description = "Extremely fast non-cryptographic hash algorithm (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause"
+homepage = "https://cyan4973.github.io/xxHash/"
+depends = [
+    "musl",
+]

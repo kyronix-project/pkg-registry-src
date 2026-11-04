@@ -1,0 +1,15 @@
+name = "shaderc"
+version = "2024.0"
+revision = 2
+description = "Collection of tools, libraries, and tests for Vulkan shader compilation"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://github.com/google/shaderc"
+depends = [
+    "glslang-libs",
+    "libgcc",
+    "libstdc++",
+    "musl",
+    "spirv-tools",
+]

@@ -1,0 +1,11 @@
+name = "libvpx"
+version = "1.15.0"
+revision = 1
+description = "Library for the vp8/vp9 codecs"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://www.webmproject.org/"
+depends = [
+    "musl",
+]

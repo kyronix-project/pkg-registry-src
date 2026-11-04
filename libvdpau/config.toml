@@ -1,0 +1,13 @@
+name = "libvdpau"
+version = "1.5"
+revision = 4
+description = "Hardware-accelerated video playback library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://gitlab.freedesktop.org/vdpau/libvdpau"
+depends = [
+    "libx11",
+    "libxext",
+    "musl",
+]

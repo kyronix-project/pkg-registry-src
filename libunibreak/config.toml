@@ -1,0 +1,11 @@
+name = "libunibreak"
+version = "6.1"
+revision = 1
+description = "Implementation of the line breaking and word breaking algorithms"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Zlib"
+homepage = "https://github.com/adah1972/libunibreak"
+depends = [
+    "musl",
+]

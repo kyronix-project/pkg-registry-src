@@ -1,0 +1,17 @@
+name = "libva"
+version = "2.22.0"
+revision = 1
+description = "Video Acceleration (VA) API for Linux"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://01.org/linuxmedia"
+depends = [
+    "libdrm",
+    "libx11",
+    "libxcb",
+    "libxext",
+    "libxfixes",
+    "musl",
+    "wayland-libs-client",
+]

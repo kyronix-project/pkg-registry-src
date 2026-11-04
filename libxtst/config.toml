@@ -1,0 +1,13 @@
+name = "libxtst"
+version = "1.2.5"
+revision = 1
+description = "X11 Testing -- Resource extension library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://wiki.freedesktop.org/xorg/"
+depends = [
+    "libx11",
+    "libxext",
+    "musl",
+]

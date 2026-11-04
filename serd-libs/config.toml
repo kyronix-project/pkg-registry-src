@@ -1,0 +1,11 @@
+name = "serd-libs"
+version = "0.32.2"
+revision = 1
+description = "lightweight C library for RDF syntax (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "https://drobilla.net/software/serd"
+depends = [
+    "musl",
+]

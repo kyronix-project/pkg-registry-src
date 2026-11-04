@@ -1,0 +1,13 @@
+name = "avahi-libs"
+version = "0.8"
+revision = 19
+description = "Libraries for avahi run-time use"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://www.avahi.org/"
+depends = [
+    "dbus-libs",
+    "libintl",
+    "musl",
+]

@@ -1,0 +1,13 @@
+name = "openal-soft-libs"
+version = "1.24.1"
+revision = 1
+description = "software implementation of OpenAL API (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.0-or-later"
+homepage = "https://openal-soft.org/"
+depends = [
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

@@ -1,0 +1,31 @@
+name = "ffmpeg-libavcodec"
+version = "6.1.2"
+revision = 1
+description = "Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavcodec library)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://ffmpeg.org/"
+depends = [
+    "aom-libs",
+    "ffmpeg-libavutil",
+    "ffmpeg-libswresample",
+    "lame-libs",
+    "libSvtAv1Enc",
+    "libdav1d",
+    "libjxl",
+    "libtheora",
+    "libva",
+    "libvorbis",
+    "libvpx",
+    "libwebp",
+    "libwebpmux",
+    "musl",
+    "onevpl-libs",
+    "opus",
+    "rav1e-libs",
+    "x264-libs",
+    "x265-libs",
+    "xvidcore",
+    "zlib",
+]

@@ -1,0 +1,13 @@
+name = "libhunspell"
+version = "1.7.2"
+revision = 4
+description = "Spell checker and morphological analyzer library and program (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later OR LGPL-2.1-or-later OR MPL-1.1"
+homepage = "https://hunspell.github.io/"
+depends = [
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

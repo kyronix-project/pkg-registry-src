@@ -1,0 +1,24 @@
+name = "ffmpeg-libavformat"
+version = "6.1.2"
+revision = 1
+description = "Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavformat library)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later AND LGPL-2.1-or-later"
+homepage = "https://ffmpeg.org/"
+depends = [
+    "ffmpeg-libavcodec",
+    "ffmpeg-libavutil",
+    "libbluray",
+    "libbz2",
+    "libcrypto3",
+    "libopenmpt",
+    "librist",
+    "libsrt",
+    "libssh",
+    "libssl3",
+    "libxml2",
+    "libzmq",
+    "musl",
+    "zlib",
+]

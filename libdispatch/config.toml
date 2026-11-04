@@ -1,0 +1,11 @@
+name = "libdispatch"
+version = "5.10.1"
+revision = 1
+description = "Comprehensive support for concurrent code execution on multicore hardware"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://apple.github.io/swift-corelibs-libdispatch"
+depends = [
+    "musl",
+]

@@ -1,0 +1,14 @@
+name = "libzmq"
+version = "4.3.5"
+revision = 2
+description = "The ZeroMQ messaging library and tools (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MPL-2.0"
+homepage = "https://zeromq.org/"
+depends = [
+    "libgcc",
+    "libsodium",
+    "libstdc++",
+    "musl",
+]

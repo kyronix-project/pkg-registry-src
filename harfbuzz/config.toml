@@ -1,0 +1,14 @@
+name = "harfbuzz"
+version = "9.0.0"
+revision = 1
+description = "Text shaping library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://harfbuzz.github.io/"
+depends = [
+    "freetype",
+    "glib",
+    "graphite2",
+    "musl",
+]

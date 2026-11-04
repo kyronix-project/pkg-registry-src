@@ -1,0 +1,13 @@
+name = "libssh"
+version = "0.11.1"
+revision = 1
+description = "Library for accessing ssh client services through C libraries"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later BSD-2-Clause"
+homepage = "https://www.libssh.org/"
+depends = [
+    "libcrypto3",
+    "musl",
+    "zlib",
+]

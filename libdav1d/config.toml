@@ -1,0 +1,11 @@
+name = "libdav1d"
+version = "1.5.0"
+revision = 1
+description = "small and fast AV1 Decoder (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause"
+homepage = "https://code.videolan.org/videolan/dav1d"
+depends = [
+    "musl",
+]

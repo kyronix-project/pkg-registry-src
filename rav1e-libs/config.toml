@@ -1,0 +1,12 @@
+name = "rav1e-libs"
+version = "0.7.1"
+revision = 1
+description = "The fastest and safest AV1 encoder (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause custom"
+homepage = "https://github.com/xiph/rav1e"
+depends = [
+    "libgcc",
+    "musl",
+]

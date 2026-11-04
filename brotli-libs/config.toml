@@ -1,0 +1,11 @@
+name = "brotli-libs"
+version = "1.1.1"
+revision = 1
+description = "Generic lossless compressor (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://github.com/google/brotli"
+depends = [
+    "musl",
+]

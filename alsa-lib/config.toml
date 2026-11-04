@@ -1,0 +1,11 @@
+name = "alsa-lib"
+version = "1.2.12"
+revision = 1
+description = "Advanced Linux Sound Architecture (ALSA) library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.1-or-later"
+homepage = "https://alsa-project.org/"
+depends = [
+    "musl",
+]

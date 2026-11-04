@@ -1,0 +1,16 @@
+name = "libass"
+version = "0.17.3"
+revision = 1
+description = "Portable library for SSA/ASS subtitle rendering"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "https://github.com/libass/libass"
+depends = [
+    "fontconfig",
+    "freetype",
+    "fribidi",
+    "harfbuzz",
+    "libunibreak",
+    "musl",
+]

@@ -1,0 +1,13 @@
+name = "librist"
+version = "0.2.10"
+revision = 1
+description = "Reliable Internet Stream Transport (RIST)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause"
+homepage = "https://www.rist.tv/"
+depends = [
+    "cjson",
+    "mbedtls",
+    "musl",
+]

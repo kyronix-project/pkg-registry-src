@@ -1,0 +1,12 @@
+name = "libdrm"
+version = "2.4.123"
+revision = 1
+description = "Userspace interface to kernel DRM services"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://gitlab.freedesktop.org/mesa/drm"
+depends = [
+    "libpciaccess",
+    "musl",
+]

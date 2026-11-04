@@ -1,0 +1,12 @@
+name = "libtheora"
+version = "1.1.1"
+revision = 18
+description = "An open video codec developed by the Xiph.org"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://www.xiph.org"
+depends = [
+    "libogg",
+    "musl",
+]

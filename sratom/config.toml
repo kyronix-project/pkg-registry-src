@@ -1,0 +1,13 @@
+name = "sratom"
+version = "0.6.16"
+revision = 1
+description = "library for serialising LV2 atoms to and from RDF"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "https://drobilla.net/software/sratom"
+depends = [
+    "musl",
+    "serd-libs",
+    "sord-libs",
+]

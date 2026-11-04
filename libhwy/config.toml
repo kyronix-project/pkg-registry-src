@@ -1,0 +1,13 @@
+name = "libhwy"
+version = "1.0.7"
+revision = 1
+description = "Performance-portable, length-agnostic SIMD with runtime dispatch"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "Apache-2.0"
+homepage = "https://github.com/google/highway"
+depends = [
+    "libgcc",
+    "libstdc++",
+    "musl",
+]

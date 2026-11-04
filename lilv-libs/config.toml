@@ -1,0 +1,15 @@
+name = "lilv-libs"
+version = "0.24.24"
+revision = 1
+description = "C library for simpler use of LV2 plugins (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "https://drobilla.net/software/lilv"
+depends = [
+    "musl",
+    "serd-libs",
+    "sord-libs",
+    "sratom",
+    "zix-libs",
+]

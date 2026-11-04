@@ -1,0 +1,11 @@
+name = "libsodium"
+version = "1.0.20"
+revision = 1
+description = "P(ortable|ackageable) NaCl-based crypto library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "https://github.com/jedisct1/libsodium"
+depends = [
+    "musl",
+]

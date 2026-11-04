@@ -1,0 +1,11 @@
+name = "zix-libs"
+version = "0.4.2"
+revision = 1
+description = "lightweight C99 portability and data structure library (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "ISC"
+homepage = "http://drobilla.net/category/zix/"
+depends = [
+    "musl",
+]

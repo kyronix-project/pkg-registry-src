@@ -1,0 +1,13 @@
+name = "libxcb"
+version = "1.16.1"
+revision = 1
+description = "X11 client-side library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://xcb.freedesktop.org/"
+depends = [
+    "libxau",
+    "libxdmcp",
+    "musl",
+]

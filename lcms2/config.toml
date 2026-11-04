@@ -1,0 +1,11 @@
+name = "lcms2"
+version = "2.19"
+revision = 1
+description = "Color Management Engine"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "MIT"
+homepage = "https://www.littlecms.com"
+depends = [
+    "musl",
+]

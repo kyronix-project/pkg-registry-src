@@ -1,0 +1,11 @@
+name = "lame-libs"
+version = "3.100"
+revision = 5
+description = "An MP3 encoder and graphical frame analyzer (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "LGPL-2.0-or-later"
+homepage = "https://lame.sourceforge.net/"
+depends = [
+    "musl",
+]

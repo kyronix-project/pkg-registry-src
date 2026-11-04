@@ -1,0 +1,12 @@
+name = "libpciaccess"
+version = "0.18.1"
+revision = 1
+description = "X11 PCI access library"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "X11"
+homepage = "https://xorg.freedesktop.org/"
+depends = [
+    "hwdata-pci",
+    "musl",
+]

@@ -1,0 +1,11 @@
+name = "opus"
+version = "1.5.2"
+revision = 1
+description = "Codec designed for interactive speech and audio transmission over the Internet"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-3-Clause"
+homepage = "https://www.opus-codec.org/"
+depends = [
+    "musl",
+]

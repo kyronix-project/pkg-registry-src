@@ -1,0 +1,11 @@
+name = "aom-libs"
+version = "3.11.0"
+revision = 1
+description = "Alliance for Open Media (AOM) AV1 codec SDK (libraries)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "BSD-2-Clause AND custom"
+homepage = "https://aomedia.org/"
+depends = [
+    "musl",
+]
