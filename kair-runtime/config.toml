@@ -1,0 +1,9 @@
+name = "kair-runtime"
+version = "1.0"
+revision = 1
+description = "glibc runtime sysroot for kair (Kyronix Appimage Runner)"
+arch = "x86-64"
+maintainer = "Zennix"
+license = "GPL-2.0-or-later"
+homepage = "https://github.com/kyronix-project/kyronix"
+
