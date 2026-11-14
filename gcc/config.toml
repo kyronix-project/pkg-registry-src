@@ -15,5 +15,6 @@ depends = [
     "musl-dev",
     "musl",
     "jansson",
+    "zlib",
     "kx-gcc"
 ]
