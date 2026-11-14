@@ -1,0 +1,8 @@
+name = "weston"
+version = "9.0.0"
+revision = 1
+description = "Weston/Wayland desktop runtime with GTK3 and Kyronix session"
+arch = "x86-64"
+maintainer = "Kyronix Project"
+license = "MIT AND LGPL-2.1-or-later"
+homepage = "https://github.com/kyronix-project/kyronix"
