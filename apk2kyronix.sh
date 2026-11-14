@@ -199,7 +199,7 @@ convert_package() {
     local outdir="$ROOT_DIR/$pkg"
 
     if [ -f "$outdir/config.toml" ] && [ -f "$outdir/install.sh" ] \
-        && [ -f "$outdir/package.gz" ] && [ -f "$outdir/package.gz.md5" ]; then
+        && [ -f "$outdir/package.zst" ] && [ -f "$outdir/package.zst.md5" ]; then
         echo "  [skip] $pkg"
         return 0
     fi

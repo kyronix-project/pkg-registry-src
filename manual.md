@@ -16,8 +16,8 @@ Each package directory must contain the following files:
 ```
 server/packages/<package_name>/
   config.toml        # Manifesto
-  package.gz         # tar.gz archive containing package payload
-  package.gz.md5     # MD5 hash of the archive
+  package.zst        # tar.zst archive containing package payload
+  package.zst.md5    # MD5 hash of the archive
   install.sh         # Installation script
 ```
 
@@ -111,15 +111,15 @@ echo "content" > /tmp/<package_name>-build/payload/file.txt
 ## Create Archive
 ```
 cd /tmp/<package_name>-build
-tar -czf /path/to/server/packages/<package_name>/package.gz .
+ZSTD_CLEVEL=19 tar --zstd -cf /path/to/server/packages/<package_name>/package.zst .
 cd -
 ```
 Important: The archive must contain relative paths only. Do not use absolute paths.
 
 ## Generate Checksum
 ```
-md5sum /path/to/server/packages/<package_name>/package.gz | awk '{print $1}' \
-  > /path/to/server/packages/<package_name>/package.gz.md5
+md5sum /path/to/server/packages/<package_name>/package.zst | awk '{print $1}' \
+  > /path/to/server/packages/<package_name>/package.zst.md5
 ```
 
 ## Write Installation Script
@@ -140,5 +140,5 @@ chmod +x server/packages/<package_name>/install.sh
 Verify all four required files are present:
 ```
 ls server/packages/<package_name>/
-# Should output: config.toml  install.sh  package.gz  package.gz.md5
+# Should output: config.toml  install.sh  package.zst  package.zst.md5
 ```
